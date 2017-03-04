@@ -48,6 +48,9 @@ public class HomeController {
 		System.out.println("email -> "+email);
 		System.out.println("password -> "+password);
 		System.out.println("stageName -> "+stageName);
+		
+		
+		
 		return null;
 	}
 	

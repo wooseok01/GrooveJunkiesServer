@@ -45,7 +45,9 @@ public class HomeController {
 			@RequestParam(value="stageName", required=false) String stageName,
 			@RequestParam(value="thumnail", required=false) MultipartFile photo){
 		System.out.println("im in!");
-		
+		System.out.println("email -> "+email);
+		System.out.println("password -> "+password);
+		System.out.println("stageName -> "+stageName);
 		return null;
 	}
 	

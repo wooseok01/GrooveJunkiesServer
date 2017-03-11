@@ -8,7 +8,10 @@
 <h1>
 	Hello world!  
 </h1>
-
+<form id="frm" name="frm" enctype="multipart/form-data" action="./test" method="post">
+	<input type="file" name="picture">
+	<input type="submit">
+</form>
 <P>  The time on the server is ${serverTime}. </P>
 </body>
 </html>

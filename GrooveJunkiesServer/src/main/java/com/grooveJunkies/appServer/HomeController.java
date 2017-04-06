@@ -61,6 +61,7 @@ public class HomeController {
 		
 		if(userDao.loginAction(email, password)){
 			result.put("result", "success");
+			System.out.println("login Success!");
 			return result;
 		}
 		result.put("result", "fail");
